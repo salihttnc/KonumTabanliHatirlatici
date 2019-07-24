@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "969418258709",
+    "firebase_url": "https://konumhatirlaticiproje.firebaseio.com",
+    "project_id": "konumhatirlaticiproje",
+    "storage_bucket": "konumhatirlaticiproje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969418258709:android:9c53bc5eff651bc4",
+        "android_client_info": {
+          "package_name": "com.salihttnc.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969418258709-60r849prglu0pk2tiusneh9abdhlve0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salihttnc.myapplication",
+            "certificate_hash": "0bcbd5c933a0e91b631c35cc970c2ec8e2f87fd5"
+          }
+        },
+        {
+          "client_id": "969418258709-7ikdgk1uleor72ukn2eavndn1l5uprkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salihttnc.myapplication",
+            "certificate_hash": "38005f452fe430a7636cd27fdfa35f72577dbab3"
+          }
+        },
+        {
+          "client_id": "969418258709-nq88tvov6gsh45gpbgokl3ueqlus8hbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-YHyMl8nMCMW_v1A7c3w6J3fagXGtqEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969418258709-nq88tvov6gsh45gpbgokl3ueqlus8hbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

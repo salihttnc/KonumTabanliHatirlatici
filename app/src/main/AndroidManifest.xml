@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.salihttnc.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <service
+            android:name=".GeofenceRegistrationService"
+            android:enabled="true" />
+
+        <service
+            android:name=".LocationUpdatesService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name=".AlarmReceiver1" />
+        <!-- <service -->
+        <!-- android:name=".DenemeService" -->
+        <!-- android:enabled="true"></service> -->
+
+        <!-- <receiver -->
+        <!-- android:name=".DenemeBroadcastReceiver" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="RestartServiceWhenStopped"></receiver> -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAw7gt4lirEIEQHQQ8_956H-JWk8i1p8bM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".GirisActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".ListelemeActivity" /> -->
+        <activity android:name=".KayitActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GirisActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NotListeleme" />
+        <activity android:name=".NotListeleme1" />
+        <activity android:name=".KonumActivity" />
+        <activity android:name=".HavaDurumu"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".HavaDurumu1"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+ />
+        <activity
+            android:name=".EditMapsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_edit_maps" />
+        <activity
+            android:name=".Maps2Activity"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2"></activity>
+
+    </application>
+
+</manifest>

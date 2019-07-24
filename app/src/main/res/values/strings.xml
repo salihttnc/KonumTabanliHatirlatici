@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="app_name">Konum Hatırlatıcısı</string>
+    <string name="email_address">Email Adres</string>
+    <string name="password">Sifre</string>
+    <string name="login_now">Giris Yap</string>
+    <string name="don_t_remember_password">Don\'t Remember password?</string>
+    <string name="dont_have_an_account">Üye Olmak İcin Tıklayın</string>
+
+    <string name="or">or</string>
+    <string name="title_activity_edit_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="launch_activity">Uygulamayı git</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Durdur</string>
+
+    <string name="location_updated">Konum Güncelleme: %1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
